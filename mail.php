@@ -4,7 +4,7 @@
 
 //The PHP built in function mail() is used to send mail from PHP scripts
 //Validation and sanitization checks on the data are essential to sending secure mail
-//The PHP built in function filter_var() provides an easy to use and efficient way of performing data sanitization and validation
+//The PHP built in function filter_var() provides an easy to use and efficient way of performing data sanitization and vch editit.
 
 function sanitize_my_email($field) {
     $field = filter_var($field, FILTER_SANITIZE_EMAIL);
