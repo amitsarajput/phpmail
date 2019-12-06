@@ -6,6 +6,8 @@
 //Validation and sanitization checks on the data are essential to sending secure mail
 //The PHP built in function filter_var() provides an easy to use and efficient way of performing data sanitization and vch editit.
 
+//Simple phpmail
+
 function sanitize_my_email($field) {
     $field = filter_var($field, FILTER_SANITIZE_EMAIL);
     if (filter_var($field, FILTER_VALIDATE_EMAIL)) {
