@@ -1,6 +1,6 @@
 <?php
 
-//This is simple mail script. For php beginers. ne wfile
+//This is simple mail script. For php beginers.
 
 //The PHP built in function mail() is used to send mail from PHP scripts
 //Validation and sanitization checks on the data are essential to sending secure mail
